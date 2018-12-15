@@ -19,9 +19,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var Image01: UIImageView!
     
-    let yogaArray = ["1", "2", "3", "3", "4" ,"5","6","7","8","9"]
+    let luaArray = ["01", "02", "03", "04" ,"05","06","07","08","09"]
     
-  //  var randamYogaIndex1 : Int = 0
+  
    
     override func viewDidLoad() {
         
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
    func updateimg()
    {
     a = a + 1
-    Image01.image = UIImage(named: yogaArray[a])
+    Image01.image = UIImage(named: luaArray[a])
     print(a)
     if a == 9
     {
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         
       
             a = a + 1
-            Image01.image = UIImage(named: yogaArray[a])
+            Image01.image = UIImage(named: luaArray[a])
             print(a)
             if a == 9
             {
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
             a = 9
         }
         
-        Image01.image = UIImage(named: yogaArray[a])
+        Image01.image = UIImage(named: luaArray[a])
         print(a)
         a = a - 1
         
